@@ -1,3 +1,4 @@
+# https://www.reddit.com/r/dailyprogrammer/comments/pjsdx/difficult_challenge_2/
 # Your mission is to create a stopwatch program. This program should have start,
 # stop, and lap options, and it should write out to a file to be viewed later.
 
@@ -29,7 +30,7 @@ class stopwatch:
 if __name__ == '__main__':
     watch = stopwatch()
     response = ""
-    script = open("watch_test", 'w')
+    script = open("watch_test.txt", 'w')
     while response != "q":
         print "Type (start), (stop), or (lap). Type (quit) to stop"
         response = str(raw_input())
